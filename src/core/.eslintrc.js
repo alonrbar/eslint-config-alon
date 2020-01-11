@@ -8,7 +8,7 @@ module.exports = {
     "parserOptions": {
         "ecmaVersion": 2018
     },
-    "rules": {        
+    "rules": {
         "eqeqeq": ["error", "always"],
         "linebreak-style": "off",
         "no-alert": "error",
@@ -16,14 +16,17 @@ module.exports = {
         "no-console": "error",
         "no-const-assign": "error",
         "no-debugger": "error",
-        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "no-multiple-empty-lines": ["error", {
+            "max": 1
+        }],
+        "no-undef": "error",
         "no-unreachable": "warn",
         "no-var": "error",
         "nonblock-statement-body-position": ["error", "below"],
         "one-var": ["error", "never"],
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
-        "prefer-rest-params": "off",        
+        "prefer-rest-params": "off",
         "semi": "error"
     }
 }
