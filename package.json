@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-alon",
+  "version": "1.0.0",
+  "description": "My shareable eslint config files",
+  "license": "MIT",
+  "author": "Alon Bar",
+  "repository": "https://github.com/alonrbar/eslint-config-alon.git",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0"
+  }
+}
